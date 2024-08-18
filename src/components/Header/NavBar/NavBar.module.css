@@ -1,0 +1,23 @@
+.Main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.NavBarBlock{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    height: 60px;
+    /* border: 1px solid black; */
+}
+.LogoImg{
+    width: 100px;
+    height: auto;
+}
+
+@media (max-width:860px) {
+    .NavBarBlock{
+        width: 90%;
+    }
+}

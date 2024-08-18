@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rubik+Mono+One&family=Unbounded:wght@200..900&display=swap');
+
+
+.Main{
+    width: 100%;
+    height: auto;
+    background: linear-gradient( to right, #E23A8F, #F87C83);
+    display: flex;
+    justify-content: center;
+
+}
+.Block{
+    padding-top: 30px;
+    width: 70%;
+    height: 700px;
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: column;
+    align-items: center;
+    /* align-items: center; */
+}
+.MainTitle{
+    width: 100%;
+    text-align: center;
+}
+.MainTitle h1{
+    font-family: "Unbounded", sans-serif;
+    color: white;
+    font-weight: 500;
+    font-size: 40px;
+}
+.Cards{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content:space-between ;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    /* background-color: rebeccapurple; */
+    /* border: 1px solid white; */
+}
+.Card{
+    width: 330px;
+    height: 220px;
+    font-family: "Unbounded", sans-serif;
+    color: white;
+}
+.CardId{
+    font-weight: 900;
+    font-size: 50px;
+}
+.CardBlock1{
+    display: flex;
+    width: 100%;
+    gap: 30px;
+    align-items: center;
+    
+}
+.CardTitle{
+    font-size: 22px;
+}
+.CardDesc{
+    font-size: 14px;
+    font-weight: 300;
+}

@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Press+Start+2P&family=Rubik+Bubbles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rubik+Mono+One&family=Unbounded:wght@200..900&display=swap');
+.Main{
+
+}
+
+.BlockOne{
+    width: 70%;
+    height: 600px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid white; */
+}
+.Block{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+.TextBlock{
+    width: 50%;
+    height: max-content;
+    display: flex;
+    text-align: start;
+    flex-direction: column;
+    justify-content: space-between;
+    max-height: 400px;
+    /* height: 250px; */
+    height: 350px;
+}
+.TextBlock h1, .TextBlock h2{
+    color: #E13690;
+}
+.subTitle{
+    font-size: 1.2rem;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+    margin-top: -40px;
+    /* margin-left: 80px; */
+}
+.TextBlock p{
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    line-height: 30px;
+
+}
+.Title{
+    font-size: 4rem;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+    margin-left: -3px;
+}
+/* .TextBlock span{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+} */
+.contactsBlock{
+    width: max-content;
+    align-items: center;
+    gap: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.contactsBlock span{
+    /* color: white; */
+    /* font-family: "Poppins", sans-serif; */
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100; */
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+}
+.Btn{
+    width: 200px;
+    background: linear-gradient(90deg, #fc627b, #fd8f7c);
+    border: none;
+    border-radius: 30px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.1rem;
+    cursor: pointer;
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    transition: 300ms;
+
+}
+.Btn:hover{
+    transition: 300ms;
+    transform: translateY(-2px);
+}
+.Link{
+    font-family: "Poppins", sans-serif;
+    color: white;
+    border-bottom: 1px solid white;
+    text-align: center;
+    transition: 300ms;
+
+}
+.Link:hover{
+    transition: 300ms;
+    border-bottom: 1px solid #E13690;
+}
+.ImgBlock{
+    /* border: 1px solid wheat; */
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.ImgBlock img{
+    width: 470px;
+    z-index: 999;
+}
+.Circle{
+    margin-top: 50px;
+    position: absolute;
+    width: 33rem;
+    height: 33rem;
+    /* z-index: 0; */
+    border-radius: 50%;
+    background: linear-gradient( to right, #fd8f7c,#fc627b, #E13690);
+}
+@media (max-width:1280px) {
+    .Circle{
+        width: 30rem;
+        height: 30rem;
+    }
+
+}
+
+@media (max-width:1024px) {
+    .Circle{
+        width: 23rem;
+        height: 23rem;
+    }
+    .ImgBlock img{
+        width: 350px;
+    }
+    .subTitle{
+        margin-top: -20px;
+    }
+}
+@media (max-width:850px) {
+    .BlockOne{
+        width: 90%;
+    }
+}
+@media (max-width:760px) {
+    .BlockOne{
+        width: 90%;
+        height: 1000px;
+        flex-direction: column;
+    }
+    .TextBlock{
+        text-align: center;
+        width: 90%;
+        align-items: center;
+    }
+    .ImgBlock img{
+        width: 450px;
+    }
+    .ImgBlock{
+        width: 90%;
+        height: auto;
+    }
+    .Circle{
+        width: 30rem;
+        height: 30rem;
+    }
+}
+@media (max-width:560px) {
+    .Main{
+        width: 100%;
+
+    }
+    .Title{
+        font-size: 2.0rem;
+    }
+    /* .ImgBlock img{
+        width: 250px;
+    } */
+    .Circle{
+        width: 22rem;
+        height: 22rem;
+    }
+    .BlockOne{
+        height: 900px;
+    }
+    .subTitle{
+        font-size: 1.1rem;
+        margin-top: 0px;
+    }
+}
+@media (max-width:460px)  {
+    .TextBlock p{
+        /* font-size: ; */
+        line-height: 20px;
+    }
+    .subTitle{
+        margin-top: -10px;
+        font-size: 0.6rem;
+    }
+    .TextBlock{
+        /* justify-content: space-around; */
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        gap: 10px;
+    }
+    .BlockOne{
+        height: max-content;
+    }
+    .Circle{
+        width: 17rem;
+        height: 17rem;
+    }
+}
