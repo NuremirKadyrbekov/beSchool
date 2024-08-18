@@ -27,13 +27,13 @@
     font-family: "Unbounded", sans-serif;
     color: white;
     font-weight: 500;
-    font-size: 40px;
+    font-size: 2.5rem;
 }
 .Cards{
     width: 100%;
-    height: auto;
+    height: 80%;
     display: flex;
-    justify-content:space-between ;
+    justify-content:space-between;
     margin-top: 50px;
     flex-wrap: wrap;
     /* background-color: rebeccapurple; */
@@ -47,7 +47,7 @@
 }
 .CardId{
     font-weight: 900;
-    font-size: 50px;
+    font-size: 3rem;
 }
 .CardBlock1{
     display: flex;
@@ -57,9 +57,98 @@
     
 }
 .CardTitle{
-    font-size: 22px;
+    font-size: 1.3rem;
 }
 .CardDesc{
-    font-size: 14px;
+    font-size: 0.8rem;
     font-weight: 300;
+}
+
+@media (max-width:1420px) {
+    .Block{
+        height: 900px;
+    }
+}
+@media (max-width:850px) {
+    .Cards{
+        align-items: center;
+        justify-content: space-between;
+    }
+    .Block{
+        width: 100%;
+    }
+}
+@media (max-width:660px) {
+    .Block{
+        height: 1100px;
+
+    }
+    /* .Cards{
+        align-items: center;
+        justify-content: center;
+    } */
+     .Card{
+        width: 230px;
+        height: 120px;
+     }
+     .Cards{
+        margin-top: 0px;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+     }
+     .CardBlock1{
+        gap: 10px;
+        display: block;
+        margin-bottom: 10px;
+     }
+     .CardId{
+        font-size: 2rem;
+     }
+     /* .CardTitle{
+        font-size: 0.9rem;
+     }
+     .CardDesc{
+        font-size: 0.5rem;
+     } */
+}
+@media (max-width:560px) {
+    .MainTitle h1{
+        font-size: 1.7rem;
+    }
+}
+
+/* @media (max-width:480px) {
+    
+} */
+@media (max-width:480px) {
+    .Block{
+        width: 70%;
+        height: 1400px;
+    }
+    .MainTitle{
+        text-align: start;
+    }
+    .MainTitle h1{
+        font-size: 1.1rem;
+    }
+    .Card{
+        width: 300px;
+        height: 200px;
+        /* border: 1px solid white; */
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .Cards{
+        align-items: start;
+        justify-content: start;
+    }
+    .CardBlock1{
+        height: 70px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: start;        
+    }
 }
