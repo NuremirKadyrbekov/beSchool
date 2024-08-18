@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/beSchool/static/css/main.0bcd9e74.css",
+    "main.js": "/beSchool/static/js/main.014398be.js",
+    "static/media/header.png": "/beSchool/static/media/header.3e1eeb6a6f67b2d8bf12.png",
+    "static/media/logo.png": "/beSchool/static/media/logo.b134fb5dc41a3ffb12d5.png",
+    "index.html": "/beSchool/index.html",
+    "main.0bcd9e74.css.map": "/beSchool/static/css/main.0bcd9e74.css.map",
+    "main.014398be.js.map": "/beSchool/static/js/main.014398be.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0bcd9e74.css",
+    "static/js/main.014398be.js"
+  ]
+}
