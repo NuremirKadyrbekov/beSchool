@@ -1,15 +1,19 @@
 {
   "files": {
-    "main.css": "/beSchool/static/css/main.7558fb40.css",
-    "main.js": "/beSchool/static/js/main.2e297baf.js",
-    "static/media/header.png": "/beSchool/static/media/header.3e1eeb6a6f67b2d8bf12.png",
-    "static/media/logo.png": "/beSchool/static/media/logo.b134fb5dc41a3ffb12d5.png",
+    "main.css": "/beSchool/static/css/main.c228edb1.css",
+    "main.js": "/beSchool/static/js/main.6cb99e68.js",
+    "static/media/header2.png": "/beSchool/static/media/header2.9a2c1b20b34cf41e5402.png",
+    "static/media/cardImg.jpg": "/beSchool/static/media/cardImg.b9aa5062d60f4b1fda56.jpg",
+    "static/media/logo2.png": "/beSchool/static/media/logo2.1e6a88f4ee9bd1b47b45.png",
+    "static/media/bgcard2.jpg": "/beSchool/static/media/bgcard2.8da5b1e2f3077846d3b6.jpg",
+    "static/media/bgcard3.jpg": "/beSchool/static/media/bgcard3.17289ba332c2cea1c7a1.jpg",
+    "static/media/bgcard.jpg": "/beSchool/static/media/bgcard.948c85719779ac59a7a7.jpg",
     "index.html": "/beSchool/index.html",
-    "main.7558fb40.css.map": "/beSchool/static/css/main.7558fb40.css.map",
-    "main.2e297baf.js.map": "/beSchool/static/js/main.2e297baf.js.map"
+    "main.c228edb1.css.map": "/beSchool/static/css/main.c228edb1.css.map",
+    "main.6cb99e68.js.map": "/beSchool/static/js/main.6cb99e68.js.map"
   },
   "entrypoints": [
-    "static/css/main.7558fb40.css",
-    "static/js/main.2e297baf.js"
+    "static/css/main.c228edb1.css",
+    "static/js/main.6cb99e68.js"
   ]
 }
