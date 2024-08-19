@@ -1,7 +1,7 @@
 import React from 'react'
 import NavBar from '../NavBar/NavBar'
 import Css from './Header.module.css'
-import Student from '../../../assets/header.png'
+import Student from '../../../assets/header2.png'
 
 
 function Header() {

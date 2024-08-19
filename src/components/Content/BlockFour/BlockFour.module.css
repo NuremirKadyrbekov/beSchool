@@ -1,0 +1,176 @@
+.Main {
+    width: 100%;
+    height: max-content;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Block {
+
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* gap: 50px; */
+}
+
+.TextBlock {
+    /* border: 1px solid; */
+    padding-top: 100px;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: start;
+    flex-direction: column;
+    /* gap: 30px; */
+    /* justify-content: center; */
+}
+
+.TextBlock h1 {
+    font-family: "Unbounded", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: #029EE8;
+    margin-bottom: 30px;
+}
+
+.TextBlock p {
+    font-family: "Unbounded", sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+
+.ImgBlock {
+    height: auto;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    /* border: 1px solid; */
+}
+
+.ImgBlock img {
+    border-radius: 50%;
+    width: 500px;
+    height: auto;
+}
+
+.Title {
+    width: 100%;
+}
+
+.TextBlock h2 {
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+    font-style: normal;
+    margin-bottom: 70px;
+}
+
+.Link {
+    font-family: "Unbounded", sans-serif;
+    color: rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(0, 0, 0);
+    text-align: center;
+    transition: 300ms;
+    margin-left: 5px;
+
+}
+
+.Link:hover {
+    transition: 300ms;
+    border-bottom: 1px solid #029EE8;
+    color: #029EE8;
+}
+
+.Buttons {
+    width: 100%;
+    display: flex;
+    gap: 30px;
+}
+
+.Buttons button{
+   /* background-image: linear-gradient(to right, #E55D87 0%, #5FC3E4  51%, #E55D87  100%); */
+   background-image: linear-gradient(to right, #00d2ff 0%, #3a7bd5  51%, #00d2ff  100%);
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   /* text-transform: uppercase; */
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 30px;
+   display: block;
+   font-family: "Unbounded", sans-serif;
+   font-size: 0.7rem;
+ }
+
+ .Buttons button:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+ @media (max-width:1360px) {
+
+    .Block{
+        width: 85%;
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .Title{
+        text-align: center;
+    }
+    .Title h1{
+        font-size: 1.1rem;
+        margin-bottom: 10px;
+    }
+    .TextBlock p{
+        text-align: center;
+        font-size: 0.6rem;
+        line-height: normal;
+        margin-bottom: 15px;
+    }
+    .TextBlock{
+        padding: 0 20px;
+        width: 100%;
+        padding-top: 20px;
+        align-items: center;
+    }
+    .Buttons{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        gap: 0px;
+        margin-bottom: 20px;
+    }
+    .Buttons button{
+        /* width: 0.4rem; */
+        padding: 10px 35px;
+        
+    }
+    .TextBlock h2{
+        margin-bottom: 10px;
+        font-size: 0.6rem;
+    }
+    .ImgBlock{
+        width: 100%;
+        justify-content: center;
+    }
+    .ImgBlock img{
+        width: 250px;
+    }
+ }
+
+ 

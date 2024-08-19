@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import Css from '../NavBar/NavBar.module.css'
-import Logo from '../../../assets/logo.png'
+import Logo from '../../../assets/logo2.png'
 import { Fade as Hamburger } from 'hamburger-react'
 
 function NavBar() {

@@ -6,7 +6,7 @@
 
 .BlockOne{
     width: 70%;
-    height: 600px;
+    height: 645px;
     background-color: black;
     display: flex;
     justify-content: space-between;
@@ -122,7 +122,7 @@
     
 }
 .ImgBlock img{
-    width: 470px;
+    width: 510px;
     z-index: 999;
 }
 .Circle{

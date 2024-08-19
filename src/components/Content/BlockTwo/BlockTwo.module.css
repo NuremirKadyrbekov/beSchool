@@ -3,11 +3,11 @@
 
 .Main{
     width: 100%;
-    height: auto;
+    height: max-content;
     background: linear-gradient( to right, #E23A8F, #F87C83);
     display: flex;
     justify-content: center;
-
+    
 }
 .Block{
     padding-top: 30px;
@@ -66,7 +66,7 @@
 
 @media (max-width:1420px) {
     .Block{
-        height: 900px;
+        height: max-content;
     }
 }
 @media (max-width:850px) {
@@ -80,7 +80,7 @@
 }
 @media (max-width:660px) {
     .Block{
-        height: 1100px;
+        height: max-content;
 
     }
     /* .Cards{
@@ -122,9 +122,12 @@
     
 } */
 @media (max-width:480px) {
+    .Main{
+        height: max-content;
+    }
     .Block{
         width: 70%;
-        height: 1400px;
+        height: max-content;
     }
     .MainTitle{
         text-align: start;
@@ -143,7 +146,9 @@
     .Cards{
         align-items: start;
         justify-content: start;
+        padding-bottom: 30px;
     }
+
     .CardBlock1{
         height: 70px;
         display: flex;
